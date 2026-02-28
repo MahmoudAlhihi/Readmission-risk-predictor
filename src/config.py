@@ -20,3 +20,7 @@ MODEL_DIR = BASE_DIR / os.getenv("MODEL_DIR", "models")
 #Modeling parameters
 RANDOM_SEED = int(os.getenv("RANDOM_SEED", 42))
 TEST_SIZE = float(os.getenv("TEST_SIZE", 0.2))
+
+#logging
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+LOG_DIR = BASE_DIR / os.getenv("LOG_DIR", "logs")
