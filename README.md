@@ -9,10 +9,10 @@ An end-to-end healthcare machine learning system that predicts 30-day hospital r
 - Document full pipeline
 
 ## Project Structure
-- src/ -> ML pipeline
-- notebooks/ -> EDA + experiments
-- api/ -> inference API
-- docs/ -> technical documentation
-- models/ -> trained artifcats
+- src/ -> `ML pipeline`
+- notebooks/ -> `EDA + experiments`
+- api/ -> `inference API`
+- docs/ -> `technical documentation`
+- models/ -> `trained artifcats`
 
 ## Status
