@@ -4,7 +4,7 @@ venv/
 __pycache__/
 *.py[codz]
 *$py.class
-
+logs/*.log
 # C extensions
 *.so
 
