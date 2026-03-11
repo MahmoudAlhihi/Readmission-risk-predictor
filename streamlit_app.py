@@ -9,7 +9,7 @@ st.write("Enter patient details to predict the risk of readmission within 30 day
 st.subheader("Patient Information")
 
 number_inpatient = st.number_input("Number of Inpatient visits", min_value=0, value=2, step=1)
-discharge_disposition_id = st.number_input("Discharege Disposition ID", min_value=0, value=1, step=1)
+discharge_disposition_id = st.number_input("Discharge Disposition ID", min_value=0, value=1, step=1)
 number_emergency = st.number_input("Number of emergency visits", min_value=0, value=0, step=1)
 number_diagnoses = st.number_input("Number of diagnoses", min_value=0, value=8, step=1)
 
