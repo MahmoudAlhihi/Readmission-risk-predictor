@@ -6,3 +6,5 @@ scikit-learn==1.8.0
 xgboost == 3.2.0
 joblib==1.5.3
 pydantic==2.12.5
+streamlit == 1.55.0
+requests==2.31.0
