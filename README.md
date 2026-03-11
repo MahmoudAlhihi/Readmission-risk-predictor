@@ -69,6 +69,55 @@ F1 Score:  0.249
 
 
 
-## Status
-ML pipeline completed
-Working on Deployment
+## Deployment
+The trained model is deployed as a **production-style inference service**.
+
+### Components
+
+**FastAPI Backend**
+- Serves predictions through a REST API
+- Loads trained XGBoost model
+- Returns readmission probability and classification
+
+**Streamlit Web Interface**
+- Interactive interface for submitting patient features
+- Displays prediction results and probabilities
+
+**Docker Containers**
+- API and UI containerized for reproducible deployment
+
+**AWS EC2 Deployment** 
+- Both services deployed to cloud instance
+
+## Project Structure
+| api/ | FastAPI prediction service|
+| src/ |ML pipeline code|
+| notebooks/ | EDA and experimentation |
+| models/ | trained model artifacts |
+| data/ | raw and processed datasets |
+| docs/ | technical documentation |
+| scripts/ | data download utilities |
+| tests/ | basic project tests |
+
+## Tech Stack
+- Python
+- Scikit-learn
+- XGBoost
+- FastAPI
+- Streamlit
+- Docker
+- AWS EC2
+
+## Live Demo
+Streamlit UI:
+http://51.20.53.90:8501
+
+API Docs: 
+http://51.20.53.90:8000/docs
+
+# Author
+Mahmoud Alhihi
+University of Minnesota
+
+Github: https://github.com/MahmoudAlhihi
+LinkedIn: https://www.linkedin.com/in/mahmoud-alhihi-238047254/
